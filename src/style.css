@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    font-family: SF Pro Text;
+}
+
+#drop-zone {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	background: #1e7eca;
+	color: white;
+	font-family: SF Pro Rounded;
+	font-size: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+    grid-row: 1;
+    grid-column: 1;
+    width: 30vw;
+    background: #171717;
+}
+
+#sidebar {
+    width: 100%;
+    max-height: 100vh;
+    background: transparent;
+    color: white;
+    outline: none;
+    height: 100vh;
+}
+
+#viewer {
+    grid-row: 1;
+    grid-column: 2;
+    display: grid;
+    background: #212121;
+    width: 70vw;
+}
+
+#preview {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1c1c1c;
+}
+
+img {
+    max-width: 256px;
+}
+
+.img-cont {
+	width: 256px;
+	height: 256px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#image2 {
+    width: 256px;
+}
+
+#info {
+    display: grid;
+    font-family: monospace;
+    color: #c3c3c3;
+    padding: 0 0 0 5px;
+}
+
+#info #ico {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#info #chosen {
+    grid-row: 1;
+    grid-column: 2;
+}
